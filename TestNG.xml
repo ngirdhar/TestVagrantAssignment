@@ -2,10 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="TestVagrant_Assignment">
-  <!--
+
   <listeners>
   	<listener class-name="com.TestVagrant.Utilities.Listeners" />	
-  </listeners> -->
+  </listeners>
   
   <test name="WeatherComparison">
   <parameter name="browser" value="chrome"/>
