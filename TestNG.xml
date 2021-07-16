@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestVagrant_Assignment">
+  <!--
+  <listeners>
+  	<listener class-name="com.TestVagrant.Utilities.Listeners" />	
+  </listeners> -->
+  
+  <test name="WeatherComparison">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.TestVagrant.TestCases.TC_001_OnlineWeatherDetails"/>
+      <class name="com.TestVagrant.TestCases.TC_002_GetRequestWeather"/>
+      <class name="com.TestVagrant.TestCases.TC_003_Compare_UI_API"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

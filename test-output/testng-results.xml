@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestVagrant_Assignment" duration-ms="48916" started-at="2021-07-16T10:49:53Z" finished-at="2021-07-16T10:50:42Z">
+    <groups>
+    </groups>
+    <test name="WeatherComparison" duration-ms="48916" started-at="2021-07-16T10:49:53Z" finished-at="2021-07-16T10:50:42Z">
+      <class name="com.TestVagrant.TestCases.TC_001_OnlineWeatherDetails">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.TestVagrant.TestCases.TC_001_OnlineWeatherDetails@4be15994]" name="setup" is-config="true" duration-ms="18797" started-at="2021-07-16T16:19:53Z" finished-at="2021-07-16T16:20:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="openWeatherDetailsPage()[pri:1, instance:com.TestVagrant.TestCases.TC_001_OnlineWeatherDetails@4be15994]" name="openWeatherDetailsPage" duration-ms="18665" started-at="2021-07-16T16:20:12Z" finished-at="2021-07-16T16:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWeatherDetailsPage -->
+        <test-method status="PASS" signature="validateCityNameOnPage()[pri:2, instance:com.TestVagrant.TestCases.TC_001_OnlineWeatherDetails@4be15994]" name="validateCityNameOnPage" duration-ms="952" started-at="2021-07-16T16:20:30Z" finished-at="2021-07-16T16:20:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCityNameOnPage -->
+        <test-method status="PASS" signature="getWeatherTempInCelciusOnPage()[pri:3, instance:com.TestVagrant.TestCases.TC_001_OnlineWeatherDetails@4be15994]" name="getWeatherTempInCelciusOnPage" duration-ms="167" started-at="2021-07-16T16:20:31Z" finished-at="2021-07-16T16:20:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeatherTempInCelciusOnPage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.TestVagrant.TestCases.TC_001_OnlineWeatherDetails@4be15994]" name="teardown" is-config="true" duration-ms="2602" started-at="2021-07-16T16:20:32Z" finished-at="2021-07-16T16:20:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.TestVagrant.TestCases.TC_001_OnlineWeatherDetails -->
+      <class name="com.TestVagrant.TestCases.TC_003_Compare_UI_API">
+        <test-method status="PASS" signature="compareUiAndAPIValues()[pri:0, instance:com.TestVagrant.TestCases.TC_003_Compare_UI_API@29240739]" name="compareUiAndAPIValues" duration-ms="7" started-at="2021-07-16T16:20:42Z" finished-at="2021-07-16T16:20:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareUiAndAPIValues -->
+      </class> <!-- com.TestVagrant.TestCases.TC_003_Compare_UI_API -->
+      <class name="com.TestVagrant.TestCases.TC_002_GetRequestWeather">
+        <test-method status="PASS" signature="getWeatherDetails()[pri:0, instance:com.TestVagrant.TestCases.TC_002_GetRequestWeather@37c02a77]" name="getWeatherDetails" is-config="true" duration-ms="5577" started-at="2021-07-16T16:20:34Z" finished-at="2021-07-16T16:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeatherDetails -->
+        <test-method status="PASS" signature="getAPIWeatherDetails()[pri:0, instance:com.TestVagrant.TestCases.TC_002_GetRequestWeather@37c02a77]" name="getAPIWeatherDetails" duration-ms="2033" started-at="2021-07-16T16:20:40Z" finished-at="2021-07-16T16:20:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIWeatherDetails -->
+      </class> <!-- com.TestVagrant.TestCases.TC_002_GetRequestWeather -->
+    </test> <!-- WeatherComparison -->
+  </suite> <!-- TestVagrant_Assignment -->
+</testng-results>
