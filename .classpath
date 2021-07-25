@@ -1,30 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry excluding="test-output/" kind="src" output="src/test-output" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/selenium-server-standalone-2.52.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/jar_files (1)/activation-1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/jar_files (1)/commons-codec-1.9.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/jar_files (1)/commons-lang3-3.4 - Copy.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/jar_files (1)/commons-logging-1.2 - Copy.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/jar_files (1)/httpclient-4.5.3 - Copy.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/jar_files (1)/httpcore-4.4.6 - Copy.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/jar_files (1)/httpmime-4.5.3 - Copy.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/jar_files (1)/jaxb-api-2.2.12 - Copy.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/jar_files (1)/jaxb-osgi-2.2.10 - Copy.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/jar_files (1)/json-path-3.3.0 - Copy.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/jar_files (1)/org.apache.sling.javax.activation-0.1.0 - Copy.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/jar_files (1)/rest-assured-3.3.0 - Copy.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/jar_files (1)/rest-assured-common-3.3.0 - Copy.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/jar_files (1)/tagsoup-1.2.1 - Copy.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/jar_files (1)/xml-path-3.3.0 - Copy.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/jar_files (2)/bson-3.3.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/jar_files (2)/commons-codec-1.9.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/jar_files (2)/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/jar_files (1)/groovy-2.4.15.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/jar_files (1)/groovy-json-2.4.15.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/jar_files (1)/groovy-xml-2.4.15.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/jar_files (3)/extentreports-2.41.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
